@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #40E0D0;
+    z-index: 9; 
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex; /*make space between logo and search box */
+    justify-content: space-between
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.nav-items{
+    display: flex; /*aligns items in center*/
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+}
