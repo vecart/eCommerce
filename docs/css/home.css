@@ -23,6 +23,7 @@
     text-transform: capitalize;
     font-size: 35px;
     font-weight: 300;
+    transition: 0.5s;
 }
 
 /*product*/
